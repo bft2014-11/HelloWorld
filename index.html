@@ -11,7 +11,8 @@
     <button onclick="zeigeSchüler();">Bestimme Schüler</button>
     <div id="ausgabe"></div>
     <script>
-      function zeigeSchüler{
+      function zeigeSchüler
+      {
         var schülerliste =["Hugo", "Irene", "Agape", "Wallarich"];
         var zufall = Math.floor(Math.random()*schülerliste.length);
         document.getElementById("ausgabe").innerHTML=schülerliste[zufall];
